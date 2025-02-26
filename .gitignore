@@ -240,6 +240,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
+bin/
 # Файли, необхідні для завдання
 !bin/Debug/net8.0/*.txt
 !bin/Debug/net8.0/*.res
