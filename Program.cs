@@ -10,17 +10,8 @@ namespace MLOOP_L1
         static string NORMAL = Console.IsOutputRedirected ? "" : "\x1b[39m";
         static string RED = Console.IsOutputRedirected ? "" : "\x1b[91m";
         static string GREEN = Console.IsOutputRedirected ? "" : "\x1b[92m";
-        static string YELLOW = Console.IsOutputRedirected ? "" : "\x1b[93m";
-        static string BLUE = Console.IsOutputRedirected ? "" : "\x1b[94m";
-        static string MAGENTA = Console.IsOutputRedirected ? "" : "\x1b[95m";
-        static string CYAN = Console.IsOutputRedirected ? "" : "\x1b[96m";
-        static string GREY = Console.IsOutputRedirected ? "" : "\x1b[97m";
-        static string BOLD = Console.IsOutputRedirected ? "" : "\x1b[1m";
-        static string NOBOLD = Console.IsOutputRedirected ? "" : "\x1b[22m";
         static string UNDERLINE = Console.IsOutputRedirected ? "" : "\x1b[4m";
         static string NOUNDERLINE = Console.IsOutputRedirected ? "" : "\x1b[24m";
-        static string REVERSE = Console.IsOutputRedirected ? "" : "\x1b[7m";
-        static string NOREVERSE = Console.IsOutputRedirected ? "" : "\x1b[27m";
 
         static void PressAnyKeyToContinue()
         {
