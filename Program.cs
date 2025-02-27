@@ -1,5 +1,4 @@
-﻿using System.Formats.Tar;
-using System.Text; // Для utf-8
+﻿using System.Text; // Для utf-8
 
 namespace MLOOP_L1
 {
